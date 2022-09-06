@@ -1,0 +1,124 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    overflow: none;
+    font-size: 16px;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(229, 229, 229, 1);
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    background-color: white;
+    max-width: 85rem;
+    margin: auto;
+    margin-bottom: 10px;
+    z-index: 10;
+}
+
+button{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 14.88px;
+    letter-spacing: 2.57px;
+    color: rgba(125, 125, 125, 1);
+}
+
+header img{
+    width: 10.5975rem;
+    height: 48px;
+}
+
+/*CARD*/
+.cards--container{
+    width: 85rem;
+    max-width: 85%;
+    margin: auto;
+    padding: 40px;
+    columns: 4 250px;
+    gap: 15px;
+}
+
+.card{
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.card .title {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 29.76px;
+}
+
+.card .author{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: 13px;
+    line-height: 0.8125rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.cards--container img{
+    width: 100%;
+}
+
+/* CARD  */
+/* .cards--container{
+     column-count: 4;
+     margin: 40px 0;
+     margin-top: 120px;
+     width: 1360px;
+     margin: 80px auto;
+}
+
+
+
+ */
+
+
+/* @media (max-width: 1450px){
+    .cards--container{
+        column-count: 3;
+        width: calc(100% - 40px);
+        box-sizing: border-box;
+    }
+
+}
+
+@media (max-width: 1120px){
+    .cards--container{
+        column-count: 2;
+        width: calc(100% - 40px);
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 720px){
+    .cards--container{
+        column-count: 1;
+        width: calc(100% - 40px);
+        box-sizing: border-box;
+    }
+} */
